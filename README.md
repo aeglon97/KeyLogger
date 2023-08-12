@@ -7,14 +7,12 @@ MVP reqs:
 
 ---
 
-- Use AI to detect for suspicious/dangerous behavior (abusive, criminal, etc.)
-- Send the appropriate to a specified third party destination.
+- Use AI to read all user key input and detect suspicious/dangerous behavior (abusive, criminal, etc.)
+- When an anomaly is detected, send the appropriate *untraceable* alert to a specified third party.
 
 Stretch goals:
 
 ---
 
 - Undetectable by antivirus
-- Does not show up as a running process in task manager
-- Untraceable when sending alerts over the web
-
+- Does not show up as a running process in task manager; must not be included in local CPU/Memory calculation reports
